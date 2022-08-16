@@ -1,4 +1,4 @@
-# gatsby-plugin-scroll-reveal ✨ 
+# gatsby-plugin-scroll-reveal-with-new-react ✨
 
 [![npm version](https://badge.fury.io/js/gatsby-plugin-scroll-reveal.svg)](https://badge.fury.io/js/gatsby-plugin-scroll-reveal) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/solublestudio/gatsby-plugin-scroll-reveal/blob/master/LICENSE)
 
@@ -10,11 +10,11 @@ To see how to use advanced options visit [Sal's docs](https://github.com/mciaste
 
 ## Install
 
-`yarn add gatsby-plugin-scroll-reveal`
+`yarn add gatsby-plugin-scroll-reveal-with-new-react`
 
 or
 
-`npm install --save gatsby-plugin-scroll-reveal`
+`npm install --save gatsby-plugin-scroll-reveal-with-new-react`
 
 ## How to use
 
@@ -24,7 +24,7 @@ or
 ```javascript
 // in gatsby-config.js
 plugins: [
-  `gatsby-plugin-scroll-reveal`
+  `gatsby-plugin-scroll-reveal-with-new-react`
 ];
 ```
 
@@ -38,12 +38,12 @@ Here is a full list of options with their default values you can use to configur
 // in gatsby-config.js
 plugins: [
   {
-    resolve: `gatsby-plugin-scroll-reveal`,
+    resolve: `gatsby-plugin-scroll-reveal-with-new-react`,
     options: {
         threshold: 1, // Percentage of an element's area that needs to be visible to launch animation
         once: true, // Defines if animation needs to be launched once
         disable: false, // Flag for disabling animations
-        
+
         // Advanced Options
         selector: '[data-sal]', // Selector of the elements to be animated
         animateClassName: 'sal-animate', // Class name which triggers animation
@@ -97,4 +97,4 @@ We are open to new functionalities or fix bugs. If you want to collaborate to im
 
 ## License
 
-Created by [Soluble Studio](https://www.solublestudio.com/). Released under the [MIT License](https://github.com/solublestudio/gatsby-plugin-scroll-reveal/blob/master/LICENSE).
+Created by [Soluble Studio](https://www.solublestudio.com/). Released under the [MIT License](https://github.com/dspears/gatsby-plugin-scroll-reveal/blob/master/LICENSE).
